@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+#todoHeader {
+	margin: 30px 0 0 30px;
+	width: 75%;
+	height: 140px;
+	background-color: #F44336;
+}
+
+#todoHeader .appName {
+	color: white;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 40px;
+}
+
+input  {
+  border: none;
+  width: 65%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  margin: 10px 0 0 40px;
+}
+
+#todoHeader .addButton {
+	border: none;
+	width: 25%;
+	background-color: #D9D9D9;
+	padding: 10px;
+	margin: 10px 0 0 0;
+	display: inline-block;
+	text-align: center;
+	color: #555555;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    margin:0 0 0 30px;
+    list-style-type: none;
+    width: 75%;
+    
+
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li:hover {
+	background-color: #ddd;
+}
+
+.closeButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px
+}
+
+.closeButton:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
